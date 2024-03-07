@@ -16,7 +16,7 @@ usermod -aG sudo kali
 #Update & Upgrade 
 sudo apt update && sudo apt upgrade && sudo apt upgrade && sudo apt dist-upgrade
 
-#Install desktop enviroment 
+#Install desktop enviroment *** gnome-browser-connector ***
 # Note: https://www.kali.org/docs/general-use/metapackages/
 sudo apt install -y kali-desktop-xfce xorg xrdp firefox-esr
 
