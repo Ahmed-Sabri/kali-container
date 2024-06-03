@@ -21,7 +21,7 @@ sudo apt update && sudo apt upgrade && sudo apt upgrade && sudo apt dist-upgrade
 sudo apt install -y kali-desktop-xfce xorg xrdp firefox-esr
 
 #IMPORTANT Before rebooting, uninstall network-manager package to avoid conflict
-sudo purge network-manager
+sudo apt purge network-manager
 sudo reboot
 
 #Enable and Start both SSH and xrdp services
